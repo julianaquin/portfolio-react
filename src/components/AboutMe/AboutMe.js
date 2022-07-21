@@ -42,7 +42,7 @@ const socialNetworks = [
                         <p>Frontend developer</p>
                     </S.Title>
                     <S.DescriptionText>
-                        lorem ipsum asdasdadasdsd
+                    My name is Juliana Varela, I'm colombian and I'm an interactive media designer. I like to explore new things, paint, draw, and I also like languages, I speak spanish, english and a bit of french, and because of this I also like programming a lot. I love to learn new things since both of my parents are teachers and I enjoy working with other people.
                     </S.DescriptionText>
                     <S.ContainerIcons>
                         {socialNetworks.map((network, index) => (
@@ -56,7 +56,7 @@ const socialNetworks = [
                     </S.ContainerIcons>
                 </S.ContainerText>
                 <S.ContainerImage>
-                    <img src='/fotojuli.jpg' />
+                    <img src='/fotojuli.jpg' alt="personal-foto"/>
 
                 </S.ContainerImage>
             </S.ContainerFlex>

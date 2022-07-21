@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Container from './components/Container/Container';
 import AboutMe from './components/AboutMe';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
     <Navbar />
     <Container>
       <AboutMe />
+      <Projects />
     </Container>
     </>
   );
