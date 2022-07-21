@@ -42,7 +42,7 @@ const Contact = () =>{
         //enviar form
     }
 
-    return <S.ContainerContact>
+    return <S.ContainerContact id="contact"> 
        <S.Title>👉🏻 Contact me</S.Title>
        <S.ContainerForm>
         {successSend ? (
